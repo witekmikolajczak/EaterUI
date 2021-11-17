@@ -1,0 +1,37 @@
+@import "../../assets/variables.scss";
+
+.card {
+  border: 1px solid $grey001;
+  border-radius: 4px;
+
+  max-width: 295px;
+  min-height: 79px;
+}
+
+.wrapper {
+  display: flex;
+
+  .checkbox {
+    margin: 0px;
+    float: right;
+    padding-top: 31px;
+    padding-right: 16px;
+    padding-bottom: 28px;
+  }
+
+  .text {
+    width: 100%;
+
+    h3 {
+      margin-left: 16px;
+      margin-top: 16px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin-top: 8px;
+      margin-left: 16px;
+      margin-bottom: 16px;
+    }
+  }
+}
