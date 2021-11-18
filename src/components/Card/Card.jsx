@@ -8,10 +8,11 @@ import styles from "./Card.module.scss";
 const Card = (props) => {
   const { isCheckboxVisible } = props;
   const { isCardDisabled } = props;
+
   return (
     <div
+      // Setting Card overlay effect:
       className={
-        // Setting Card overlay effect:
         isCardDisabled
           ? `${classNames(styles.overlay, styles.card)}`
           : styles.card

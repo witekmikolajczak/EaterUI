@@ -14,29 +14,24 @@
   .checkbox {
     margin: 0px;
     float: right;
-    padding-top: 31px;
-    padding-right: 16px;
-    padding-bottom: 28px;
+    padding: 31px 16px 28px 0px;
   }
 
   .text {
     width: 100%;
+    margin: 16px 0px 16px 16px;
 
-    h3 {
-      margin-left: 16px;
-      margin-top: 16px;
-      margin-bottom: 0px;
+    :first-child {
+      margin: 0px 0px 4px 0px;
     }
 
-    p {
-      margin-top: 8px;
-      margin-left: 16px;
-      margin-bottom: 16px;
+    :nth-child(2) {
+      margin: 4px 0px 0px 0px;
     }
   }
 }
 
 .overlay {
   background-color: $grey002;
-  opacity: 0.5;
+  opacity: 0.4;
 }
